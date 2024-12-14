@@ -17,10 +17,8 @@ const Footer =() => {
           <span className="primaryText">Address</span>
           <span className="secondaryText">summa oru address</span>
           <div className="flexCenter f-menu">
-          <a href="">Services</a>
-          <a href="">Book Events</a>
-          <a href="">Pricing</a>
-          <a href="">About Us</a>
+          <a href="#serviceSec">Services</a>
+          <a href="#valueSec">Pricing</a>
           </div>
         </div>
       </div>

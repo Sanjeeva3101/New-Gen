@@ -31,11 +31,11 @@ const Hero = () => {
               You are the special one to have NEU-GEN by your side
             </span>
           </div>
-          <div className="flexCenter search-bar">
+          {/* <div className="flexCenter search-bar">
             <HiLocationMarker color="var(--blue)" size={25} />
             <input type="text" />
             <button className="button-bgw">Search</button>
-          </div>
+          </div> */}
           <div className="flexCenter stats">
             <div className="flexColCenter stat">
               <span>
