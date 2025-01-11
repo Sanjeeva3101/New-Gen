@@ -8,6 +8,9 @@
 .f-left {
   gap: 1rem;
 }
+.icon-gap {
+  padding-right: 2rem;
+}
 .f-menu {
   gap: 0.5rem;
   margin-top: 1.5rem;

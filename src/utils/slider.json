@@ -2,49 +2,49 @@
   {
     "name": "Digital Marketing",
     "price": "47,043",
-    "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
-    "image": "./r1.png"
+    "detail": "Where brands and audiences connect in the digital realm",
+    "image": "./r1.jpg"
   },
   {
     "name": "Website Development",
     "price": "66,353",
-    "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
-    "image": "./r2.png"
+    "detail": "A website is your online storefront. Make it a masterpiece.",
+    "image": "./r2.jpg"
   },
   {
     "name": "Photo and Videography",
     "price": "35,853",
-    "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
-    "image": "./r3.png"
+    "detail": "Life is a series of moments. Let us capture them for you.",
+    "image": "./r3.jpg"
   },
   {
     "name": "Content Creation",
     "price": "47,043",
-    "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
-    "image": "./r1.png"
+    "detail": "Content is king. Let's create a kingdom.",
+    "image": "./r4.jpg"
   },
   {
     "name": "Photo and Video Editing",
     "price": "66,353",
-    "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
-    "image": "./r2.png"
+    "detail": "Transforming ordinary moments into extraordinary visuals.",
+    "image": "./r5.jpg"
   },
   {
     "name": "Graphic Design",
     "price": "35,853",
-    "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
-    "image": "./r3.png"
+    "detail": "Great design is not just what it looks like and feels like. Design is how it works.",
+    "image": "./r6.png"
   },
   {
     "name": "Data Analysis",
     "price": "35,853",
-    "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
-    "image": "./r3.png"
+    "detail": "Data is the new oil. We're the refinery.",
+    "image": "./r7.png"
   },
   {
     "name": "Business Consulting",
     "price": "35,853",
-    "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
-    "image": "./r3.png"
+    "detail": "The only way to do great work is to love what you do.",
+    "image": "./r8.jpg"
   }
 ]

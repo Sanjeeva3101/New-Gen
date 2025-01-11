@@ -20,7 +20,7 @@ const Hero = () => {
                 type: "spring",
               }}
             >
-              Convert the moments <br /> to memories with <br /> NEU-GEN.
+              A full-service digital agency <br /> empowering businesses with <br /> innovative solutions.
             </motion.h1>
           </div>
           <div className="flexColStart hero-des">
