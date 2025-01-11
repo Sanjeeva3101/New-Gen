@@ -19,14 +19,14 @@ const Value = () => {
         {/* Left side */}
         <div className="v-left">
           <div className="image-container">
-            <img src="./value.png" alt="" />
+            <img src="./value.jpg" alt="" />
           </div>
         </div>
         {/* Right side */}
         <div className="flexColStart v-right">
           <span className="orangeText">Our Value</span>
-          <span className="primaryText">Services We give</span>
-          <span className="secondaryText">Our Quality</span>
+          <span className="primaryText">About Us</span>
+          <span className="secondaryText">Neu Gen is a creative agency specializing in bringing brands to life through a powerful blend of various services. Founded in 2023, we have been dedicated to helping businesses of all sizes achieve their online presence goals.</span>
         <Accordion
           className="accordian"
           allowMultipleExpanded={false}

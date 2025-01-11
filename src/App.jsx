@@ -4,25 +4,23 @@ import "./App.css";
 import Services from "./components/Services/Services";
 import Value from "./components/Value/Value";
 import Contact from "./components/Contact/Contact";
+import Home from "./pages/Home/Home";
+import Service from "./pages/Service/Service";
 import Footer from "./components/Footer/Footer";
 import { useRef } from "react";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
-  
   return (
     <div className="App">
-      <div>
-        <div className="white-gradient" />
-        <Header></Header>
-        <Hero></Hero>
-      </div>
-      <Services></Services>
-      <Value></Value>
-      <Contact></Contact>
+      <Header></Header>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home></Home>} />
+          <Route path="/pages/Service/Service" element={<Service></Service>} />
+        </Routes>
+      </Router>
       <Footer></Footer>
-      {/* <HashRouter>
-        <Route path='service' element={<Service/>}></Route>
-      </HashRouter> */}
     </div>
   );
 }

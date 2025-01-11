@@ -3,6 +3,10 @@
     z-index: 99;
 }
 
+.h-image{
+    padding-top: 1rem;
+}
+
 .h-container{
     justify-content: space-between;
     padding-top: 1rem;

@@ -5,8 +5,18 @@ import "swiper/css"
 import data from '../../utils/slider.json'
 import { color } from 'framer-motion'
 import { sliderSettings } from '../../utils/common'
+import { Link, useNavigate } from 'react-router-dom';
 
 const Services = () => {
+    const navigate = useNavigate();
+
+    const handleSwiperClick = (details) => {
+        console.log("engayo miss"+details.name);
+        const phoneNumber = "9342386606";
+        const encodedMessage = "Hi! I need more details on " + details.name; 
+        const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
+        window.location.href = whatsappUrl; 
+      };
   return (
     <section className="r-wrapper" id='serviceSec'>
         <div className="paddings innerWidth r-container">
@@ -27,6 +37,8 @@ const Services = () => {
                                 </span>
                                 <span className='primaryText'>{card.name}</span>
                                 <span className='secondaryText'>{card.detail}</span>
+                                {/* <Link to="/pages/Service/Service" className='button-bgw'>Get more details</Link> */}
+                                <button className='button-bgw' onClick={()=>{handleSwiperClick(card)}}>Get more details</button>
                             </div>
                         </SwiperSlide>
                     ))
